@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="a7a847abc315d2109ce61e0ed40131eb" label="Player" max_length="40" name="x_snc_squashtrack_player" type="collection">
+        <element display="true" label="Name" mandatory="true" max_length="40" name="name" type="string"/>
+        <element label="Win Rate" max_length="20" name="win_rate" read_only="true" type="decimal"/>
+        <element label="Average position" max_length="20" name="average_position" read_only="true" type="decimal"/>
+        <element attributes="edge_encryption_enabled=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
+        <element label="Qualified" max_length="40" name="qualified" read_only="true" type="boolean"/>
+        <element label="Matches won" max_length="40" name="matches_won" read_only="true" type="integer"/>
+        <element attributes="edge_encryption_enabled=true" label="Email" max_length="40" name="email" type="string"/>
+        <element label="Matches played" max_length="20" name="matches_played" read_only="true" type="integer"/>
+        <element label="Last Rank" max_length="15" name="last_rank" type="decimal"/>
+        <element attributes="edge_encryption_enabled=true" label="Last Rank Date" max_length="40" name="last_rank_date" type="glide_date"/>
+        <element label="Phone" max_length="40" name="phone" type="phone_number_e164"/>
+    </element>
+</database>

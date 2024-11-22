@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_app_module">
+    <sys_app_module action="DELETE">
+        <active>true</active>
+        <application display_value="SquashTracker">47c887abc315d2109ce61e0ed40131cf</application>
+        <assessment/>
+        <device_type/>
+        <filter/>
+        <hint/>
+        <homepage/>
+        <image/>
+        <link_type>SEPARATOR</link_type>
+        <map_page/>
+        <mobile_title>Player</mobile_title>
+        <mobile_view_name>Mobile</mobile_view_name>
+        <name/>
+        <order>1</order>
+        <override_menu_roles>false</override_menu_roles>
+        <query/>
+        <report/>
+        <require_confirmation>true</require_confirmation>
+        <roles>x_snc_squashtrack.admin,x_snc_squashtrack.user</roles>
+        <sys_class_name>sys_app_module</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-10-23 15:33:21</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>07c887abc315d2109ce61e0ed40131d3</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>Players</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="SquashTracker" source="x_snc_squashtrack">dcd7476bc315d2109ce61e0ed4013168</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="SquashTracker">dcd7476bc315d2109ce61e0ed4013168</sys_scope>
+        <sys_update_name>sys_app_module_07c887abc315d2109ce61e0ed40131d3</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-10-23 19:16:12</sys_updated_on>
+        <timeline_page/>
+        <title>Players</title>
+        <uncancelable>false</uncancelable>
+        <view_name/>
+        <window_name/>
+    </sys_app_module>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="SquashTracker">dcd7476bc315d2109ce61e0ed4013168</application>
+        <file_path/>
+        <instance_id>0e1083e91b567d9ce84d2f8dee4bcb3e</instance_id>
+        <instance_name>dev203670</instance_name>
+        <name>sys_app_module_07c887abc315d2109ce61e0ed40131d3</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_app_module"><sys_app_module action="INSERT_OR_UPDATE"><active>true</active><application display_value="SquashTracker">47c887abc315d2109ce61e0ed40131cf</application><assessment/><device_type/><filter/><hint/><homepage/><image/><link_type>SEPARATOR</link_type><map_page/><mobile_title>Player</mobile_title><mobile_view_name>Mobile</mobile_view_name><name/><order>1</order><override_menu_roles>false</override_menu_roles><query/><report/><require_confirmation>true</require_confirmation><roles>x_snc_squashtrack.admin,x_snc_squashtrack.user</roles><sys_class_name>sys_app_module</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2024-10-23 15:33:21</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>07c887abc315d2109ce61e0ed40131d3</sys_id><sys_mod_count>2</sys_mod_count><sys_name>Players</sys_name><sys_overrides/><sys_package display_value="SquashTracker" source="x_snc_squashtrack">dcd7476bc315d2109ce61e0ed4013168</sys_package><sys_policy/><sys_scope display_value="SquashTracker">dcd7476bc315d2109ce61e0ed4013168</sys_scope><sys_update_name>sys_app_module_07c887abc315d2109ce61e0ed40131d3</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2024-10-23 19:16:12</sys_updated_on><timeline_page/><title>Players</title><uncancelable>false</uncancelable><view_name/><window_name/></sys_app_module></record_update>]]></payload>
+        <payload_hash>2098945901</payload_hash>
+        <record_name>Players</record_name>
+        <reverted_from/>
+        <source>8e190babc315d2109ce61e0ed401315f</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-10-23 19:16:12</sys_created_on>
+        <sys_id>5bcbb32fc319d2109ce61e0ed40131f6</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>192bacedda90000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-10-23 19:16:12</sys_updated_on>
+        <type>Module</type>
+        <update_guid>53cbb32fdf19d2102163efb2a3f153f6</update_guid>
+        <update_guid_history>53cbb32fdf19d2102163efb2a3f153f6:2098945901,9f8e63e713d5d210bc7b7d9c02c4e61e:1909812854,c7c887abd515d2100ee4d090d53a99d5:-1928904042</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="Players">425ec477c399d2109ce61e0ed40131c5</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-10-23 20:37:12</sys_created_on>
+        <sys_db_object display_value="" name="sys_app_module">sys_app_module</sys_db_object>
+        <sys_id>4edca662f43043509adc7a540a03bb04</sys_id>
+        <sys_metadata>07c887abc315d2109ce61e0ed40131d3</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Players</sys_name>
+        <sys_package display_value="SquashTracker" source="x_snc_squashtrack">dcd7476bc315d2109ce61e0ed4013168</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="SquashTracker">dcd7476bc315d2109ce61e0ed4013168</sys_scope>
+        <sys_scope_delete display_value="">0a6fb8039d774506807e283009741aa4</sys_scope_delete>
+        <sys_update_name>sys_app_module_07c887abc315d2109ce61e0ed40131d3</sys_update_name>
+        <sys_update_version display_value="sys_app_module_07c887abc315d2109ce61e0ed40131d3">5bcbb32fc319d2109ce61e0ed40131f6</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-10-23 20:37:12</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

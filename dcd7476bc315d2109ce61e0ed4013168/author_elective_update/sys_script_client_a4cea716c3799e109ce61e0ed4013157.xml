@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_script_client">
+    <sys_script_client action="DELETE">
+        <active>false</active>
+        <applies_extended>false</applies_extended>
+        <condition/>
+        <description/>
+        <field/>
+        <global>true</global>
+        <isolate_script>true</isolate_script>
+        <messages/>
+        <name>setCalculatedFields</name>
+        <order/>
+        <script><![CDATA[function onLoad() {
+
+    var calcMatches = g_scratchpad.matches;
+    var calcWins = g_scratchpad.wins;
+    var calcWinRate = 0.0;
+	var calcAvgPosition = 0;
+
+    if (calcMatches > 0) {
+        calcWinRate = 100 * parseInt(calcWins) / parseInt(calcMatches);
+		calcAvgPosition = g_scratchpad.avg_position;
+    }
+
+    g_form.setValue('matches_played', calcMatches);
+    g_form.setValue('matches_won', calcWins);
+    g_form.setValue('win_percent', calcWinRate.toFixed(0) + "%");
+    g_form.setValue('qualified', (parseInt(calcMatches) > 4) ? "Qualified" : "Needs " + (5 - parseInt(calcMatches)).toString() + " more matches to qualify");
+	g_form.setValue('avg_position', calcAvgPosition.toFixed(1));
+
+}]]></script>
+        <sys_class_name>sys_script_client</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-11-13 17:39:47</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>a4cea716c3799e109ce61e0ed4013157</sys_id>
+        <sys_mod_count>8</sys_mod_count>
+        <sys_name>setCalculatedFields</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="SquashTracker" source="x_snc_squashtrack">dcd7476bc315d2109ce61e0ed4013168</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="SquashTracker">dcd7476bc315d2109ce61e0ed4013168</sys_scope>
+        <sys_update_name>sys_script_client_a4cea716c3799e109ce61e0ed4013157</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-11-19 19:02:07</sys_updated_on>
+        <table>x_snc_squashtrack_player</table>
+        <type>onLoad</type>
+        <ui_type>0</ui_type>
+        <view/>
+    </sys_script_client>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="SquashTracker">dcd7476bc315d2109ce61e0ed4013168</application>
+        <file_path/>
+        <instance_id>0e1083e91b567d9ce84d2f8dee4bcb3e</instance_id>
+        <instance_name>dev203670</instance_name>
+        <name>sys_script_client_a4cea716c3799e109ce61e0ed4013157</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update sys_domain="global" table="sys_script_client"&gt;&lt;sys_script_client action="INSERT_OR_UPDATE"&gt;&lt;active&gt;false&lt;/active&gt;&lt;applies_extended&gt;false&lt;/applies_extended&gt;&lt;condition/&gt;&lt;description/&gt;&lt;field/&gt;&lt;global&gt;true&lt;/global&gt;&lt;isolate_script&gt;true&lt;/isolate_script&gt;&lt;messages/&gt;&lt;name&gt;setCalculatedFields&lt;/name&gt;&lt;order/&gt;&lt;script&gt;&lt;![CDATA[function onLoad() {
+
+    var calcMatches = g_scratchpad.matches;
+    var calcWins = g_scratchpad.wins;
+    var calcWinRate = 0.0;
+	var calcAvgPosition = 0;
+
+    if (calcMatches &gt; 0) {
+        calcWinRate = 100 * parseInt(calcWins) / parseInt(calcMatches);
+		calcAvgPosition = g_scratchpad.avg_position;
+    }
+
+    g_form.setValue('matches_played', calcMatches);
+    g_form.setValue('matches_won', calcWins);
+    g_form.setValue('win_percent', calcWinRate.toFixed(0) + "%");
+    g_form.setValue('qualified', (parseInt(calcMatches) &gt; 4) ? "Qualified" : "Needs " + (5 - parseInt(calcMatches)).toString() + " more matches to qualify");
+	g_form.setValue('avg_position', calcAvgPosition.toFixed(1));
+
+}]]&gt;&lt;/script&gt;&lt;sys_class_name&gt;sys_script_client&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2024-11-13 17:39:47&lt;/sys_created_on&gt;&lt;sys_domain&gt;global&lt;/sys_domain&gt;&lt;sys_domain_path&gt;/&lt;/sys_domain_path&gt;&lt;sys_id&gt;a4cea716c3799e109ce61e0ed4013157&lt;/sys_id&gt;&lt;sys_mod_count&gt;8&lt;/sys_mod_count&gt;&lt;sys_name&gt;setCalculatedFields&lt;/sys_name&gt;&lt;sys_overrides/&gt;&lt;sys_package display_value="SquashTracker" source="x_snc_squashtrack"&gt;dcd7476bc315d2109ce61e0ed4013168&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="SquashTracker"&gt;dcd7476bc315d2109ce61e0ed4013168&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_script_client_a4cea716c3799e109ce61e0ed4013157&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2024-11-19 19:02:07&lt;/sys_updated_on&gt;&lt;table&gt;x_snc_squashtrack_player&lt;/table&gt;&lt;type&gt;onLoad&lt;/type&gt;&lt;ui_type&gt;0&lt;/ui_type&gt;&lt;view/&gt;&lt;/sys_script_client&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>96504819</payload_hash>
+        <record_name>setCalculatedFields</record_name>
+        <reverted_from/>
+        <source>8e190babc315d2109ce61e0ed401315f</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-11-19 19:02:07</sys_created_on>
+        <sys_id>148b3254c30612109ce61e0ed4013124</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>19345cdac220000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-11-19 19:02:07</sys_updated_on>
+        <type>Client Script</type>
+        <update_guid>1c8b3254450612100761b9de672a3023</update_guid>
+        <update_guid_history>1c8b3254450612100761b9de672a3023:96504819,11c5f65c4ec21210f463cd3df4fdf7e3:-7496410,687bd8ea9b3d9e1084a01b3adef76bae:1694962587,6b379466083d9e103c03a4d5bd264efe:-129026769,00269466f93d9e10514d3ac8c5bc87f6:1956636930,e770bb96f4799e1026a356783e58ddd0:-1214561008,723faf160f799e104b1f056a01f2e0b1:216162132,8a2f2716fe799e10f1b617918ef69758:12562820,371f271687799e104db2b39b12f75d1d:-690494035</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-11-19 20:04:59</sys_created_on>
+        <sys_db_object display_value="" name="sys_script_client">sys_script_client</sys_db_object>
+        <sys_id>178f4940b5394d248f3f181464d39a90</sys_id>
+        <sys_metadata>a4cea716c3799e109ce61e0ed4013157</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>setCalculatedFields</sys_name>
+        <sys_package display_value="SquashTracker" source="x_snc_squashtrack">dcd7476bc315d2109ce61e0ed4013168</sys_package>
+        <sys_parent display_value="Player">a7a847abc315d2109ce61e0ed40131eb</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="SquashTracker">dcd7476bc315d2109ce61e0ed4013168</sys_scope>
+        <sys_scope_delete display_value="">0a6fb8039d774506807e283009741aa4</sys_scope_delete>
+        <sys_update_name>sys_script_client_a4cea716c3799e109ce61e0ed4013157</sys_update_name>
+        <sys_update_version display_value="sys_script_client_a4cea716c3799e109ce61e0ed4013157">148b3254c30612109ce61e0ed4013124</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-11-19 20:04:59</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

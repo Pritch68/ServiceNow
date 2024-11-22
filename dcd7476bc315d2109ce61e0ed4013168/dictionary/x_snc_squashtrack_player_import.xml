@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="38d733e7c319d2109ce61e0ed40131e0" extends="sys_import_set_row" label="player import" max_length="40" name="x_snc_squashtrack_player_import" type="collection">
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Rank" label="Rank" max_length="40" name="u_rank" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Name" label="Name" max_length="40" name="u_name" type="string"/>
+    </element>
+</database>
