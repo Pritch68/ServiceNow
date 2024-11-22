@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_app_application">
+    <sys_app_application action="DELETE">
+        <active>true</active>
+        <category display_value="Custom Applications">e0355b31ef303000a61d5a3615c0fb78</category>
+        <description/>
+        <device_type>browser</device_type>
+        <hint/>
+        <name>Clubs</name>
+        <order>100</order>
+        <roles>x_snc_squashtrack.admin</roles>
+        <sys_class_name>sys_app_application</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-10-23 20:34:17</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>dbad8837c399d2109ce61e0ed401311c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Clubs</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="SquashTracker" source="x_snc_squashtrack">dcd7476bc315d2109ce61e0ed4013168</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="SquashTracker">dcd7476bc315d2109ce61e0ed4013168</sys_scope>
+        <sys_update_name>sys_app_application_dbad8837c399d2109ce61e0ed401311c</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-10-23 20:34:17</sys_updated_on>
+        <title>Clubs</title>
+        <view_name/>
+    </sys_app_application>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="SquashTracker">dcd7476bc315d2109ce61e0ed4013168</application>
+        <file_path/>
+        <instance_id>0e1083e91b567d9ce84d2f8dee4bcb3e</instance_id>
+        <instance_name>dev203670</instance_name>
+        <name>sys_app_application_dbad8837c399d2109ce61e0ed401311c</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_app_application"><sys_app_application action="INSERT_OR_UPDATE"><active>true</active><category display_value="Custom Applications">e0355b31ef303000a61d5a3615c0fb78</category><description/><device_type>browser</device_type><hint/><name>Clubs</name><order>100</order><roles>x_snc_squashtrack.admin</roles><sys_class_name>sys_app_application</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2024-10-23 20:34:17</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>dbad8837c399d2109ce61e0ed401311c</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Clubs</sys_name><sys_overrides/><sys_package display_value="SquashTracker" source="x_snc_squashtrack">dcd7476bc315d2109ce61e0ed4013168</sys_package><sys_policy/><sys_scope display_value="SquashTracker">dcd7476bc315d2109ce61e0ed4013168</sys_scope><sys_update_name>sys_app_application_dbad8837c399d2109ce61e0ed401311c</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2024-10-23 20:34:17</sys_updated_on><title>Clubs</title><view_name/></sys_app_application></record_update>]]></payload>
+        <payload_hash>-1853399093</payload_hash>
+        <record_name>Clubs</record_name>
+        <reverted_from/>
+        <source>8e190babc315d2109ce61e0ed401315f</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-10-23 20:34:17</sys_created_on>
+        <sys_id>1bad8837c399d2109ce61e0ed401311f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>192bb165a320000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-10-23 20:34:17</sys_updated_on>
+        <type>Application Menu</type>
+        <update_guid>1fad88378399d210930d08492199d81e</update_guid>
+        <update_guid_history>1fad88378399d210930d08492199d81e:-1853399093</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="Clubs">063ec0f3c399d2109ce61e0ed401314c</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-10-23 20:36:39</sys_created_on>
+        <sys_db_object display_value="" name="sys_app_application">sys_app_application</sys_db_object>
+        <sys_id>062807f0f9bd43cd84a5a1d4748f8811</sys_id>
+        <sys_metadata>dbad8837c399d2109ce61e0ed401311c</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Clubs</sys_name>
+        <sys_package display_value="SquashTracker" source="x_snc_squashtrack">dcd7476bc315d2109ce61e0ed4013168</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="SquashTracker">dcd7476bc315d2109ce61e0ed4013168</sys_scope>
+        <sys_scope_delete display_value="">0a6fb8039d774506807e283009741aa4</sys_scope_delete>
+        <sys_update_name>sys_app_application_dbad8837c399d2109ce61e0ed401311c</sys_update_name>
+        <sys_update_version display_value="sys_app_application_dbad8837c399d2109ce61e0ed401311c">1bad8837c399d2109ce61e0ed401311f</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-10-23 20:36:39</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

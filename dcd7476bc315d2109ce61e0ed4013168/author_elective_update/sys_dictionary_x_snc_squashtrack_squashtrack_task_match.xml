@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_dictionary action="DELETE" element="match" table="x_snc_squashtrack_squashtrack_task">
+        <active>true</active>
+        <array>false</array>
+        <attributes>encode_utf8=false</attributes>
+        <audit>false</audit>
+        <calculation/>
+        <choice>0</choice>
+        <choice_field/>
+        <choice_table/>
+        <column_label>Match</column_label>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>match</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <internal_type display_value="Reference">reference</internal_type>
+        <mandatory>false</mandatory>
+        <max_length>32</max_length>
+        <name>x_snc_squashtrack_squashtrack_task</name>
+        <next_element/>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference display_value="" name="x_snc_squashtrack_matches">x_snc_squashtrack_matches</reference>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_dictionary</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-11-20 15:02:05</sys_created_on>
+        <sys_id>4a2e472cc34a52109ce61e0ed4013117</sys_id>
+        <sys_name>Match</sys_name>
+        <sys_package display_value="SquashTracker" source="x_snc_squashtrack">dcd7476bc315d2109ce61e0ed4013168</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="SquashTracker">dcd7476bc315d2109ce61e0ed4013168</sys_scope>
+        <sys_update_name>sys_dictionary_x_snc_squashtrack_squashtrack_task_match</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-11-20 15:02:05</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_dictionary>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="SquashTracker">dcd7476bc315d2109ce61e0ed4013168</application>
+        <file_path/>
+        <instance_id>0e1083e91b567d9ce84d2f8dee4bcb3e</instance_id>
+        <instance_name>dev203670</instance_name>
+        <name>sys_dictionary_x_snc_squashtrack_squashtrack_task_match</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update><sys_dictionary action="INSERT_OR_UPDATE" element="match" table="x_snc_squashtrack_squashtrack_task"><active>true</active><array>false</array><attributes>encode_utf8=false</attributes><audit>false</audit><calculation/><choice>0</choice><choice_field/><choice_table/><column_label>Match</column_label><comments/><create_roles/><default_value/><defaultsort/><delete_roles/><dependent/><dependent_on_field/><display>false</display><dynamic_creation>false</dynamic_creation><dynamic_creation_script/><dynamic_default_value/><dynamic_ref_qual/><element>match</element><element_reference>false</element_reference><foreign_database/><formula/><function_definition/><function_field>false</function_field><internal_type display_value="Reference">reference</internal_type><mandatory>false</mandatory><max_length>32</max_length><name>x_snc_squashtrack_squashtrack_task</name><next_element/><primary>false</primary><read_only>false</read_only><read_roles/><reference display_value="" name="x_snc_squashtrack_matches">x_snc_squashtrack_matches</reference><reference_cascade_rule/><reference_floats>false</reference_floats><reference_key/><reference_qual/><reference_qual_condition/><reference_type/><spell_check>false</spell_check><staged>false</staged><sys_class_name>sys_dictionary</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2024-11-20 15:02:05</sys_created_on><sys_id>4a2e472cc34a52109ce61e0ed4013117</sys_id><sys_name>Match</sys_name><sys_package display_value="SquashTracker" source="x_snc_squashtrack">dcd7476bc315d2109ce61e0ed4013168</sys_package><sys_policy/><sys_scope display_value="SquashTracker">dcd7476bc315d2109ce61e0ed4013168</sys_scope><sys_update_name>sys_dictionary_x_snc_squashtrack_squashtrack_task_match</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2024-11-20 15:02:05</sys_updated_on><table_reference>false</table_reference><text_index>false</text_index><unique>false</unique><use_dependent_field>false</use_dependent_field><use_dynamic_default>false</use_dynamic_default><use_reference_qualifier>simple</use_reference_qualifier><virtual>false</virtual><virtual_type>script</virtual_type><widget/><write_roles/><xml_view>false</xml_view></sys_dictionary></record_update>]]></payload>
+        <payload_hash>-994450541</payload_hash>
+        <record_name>SquashTrack Task.Match</record_name>
+        <reverted_from/>
+        <source>8e190babc315d2109ce61e0ed401315f</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-11-20 15:02:05</sys_created_on>
+        <sys_id>0a2e472cc34a52109ce61e0ed401313f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1934a18493e0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-11-20 15:02:05</sys_updated_on>
+        <type>Dictionary</type>
+        <update_guid>4e2e472c704a5210bbf7f837d491fa3e</update_guid>
+        <update_guid_history>4e2e472c704a5210bbf7f837d491fa3e:-994450541</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-11-20 16:37:50</sys_created_on>
+        <sys_db_object display_value="" name="sys_dictionary">sys_dictionary</sys_db_object>
+        <sys_id>0ace793ec0254708857694b41c0f5c90</sys_id>
+        <sys_metadata>4a2e472cc34a52109ce61e0ed4013117</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Match</sys_name>
+        <sys_package display_value="SquashTracker" source="x_snc_squashtrack">dcd7476bc315d2109ce61e0ed4013168</sys_package>
+        <sys_parent display_value="">4ebbcb28c34a52109ce61e0ed401315f</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="SquashTracker">dcd7476bc315d2109ce61e0ed4013168</sys_scope>
+        <sys_scope_delete display_value="">0a6fb8039d774506807e283009741aa4</sys_scope_delete>
+        <sys_update_name>sys_dictionary_x_snc_squashtrack_squashtrack_task_match</sys_update_name>
+        <sys_update_version display_value="sys_dictionary_x_snc_squashtrack_squashtrack_task_match">0a2e472cc34a52109ce61e0ed401313f</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-11-20 16:37:50</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

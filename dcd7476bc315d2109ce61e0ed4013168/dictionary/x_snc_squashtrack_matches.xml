@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="9bb4df6bc355d2109ce61e0ed40131c6" label="Matches" max_length="40" name="x_snc_squashtrack_matches" type="collection">
+        <element label="Won" max_length="40" name="won" type="boolean"/>
+        <element display="true" label="Opponent Club" max_length="40" name="opponent_club" reference="x_snc_squashtrack_clubs" type="reference"/>
+        <element label="Reviewed" max_length="40" name="reviewed" type="boolean"/>
+        <element choice="3" label="Score" max_length="40" name="score" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Lost 1-3" sequence="5" value="5"/>
+                <element inactive_on_update="false" label="Lost 2-3" sequence="4" value="4"/>
+                <element inactive_on_update="false" label="Won 3-1" sequence="2" value="2"/>
+                <element inactive_on_update="false" label="Won 3-2" sequence="3" value="3"/>
+                <element inactive_on_update="false" label="Won 3-0" sequence="1" value="1"/>
+                <element inactive_on_update="false" label="Lost 0-3" sequence="6" value="6"/>
+            </choice>
+        </element>
+        <element label="Player" max_length="32" name="player" reference="x_snc_squashtrack_player" type="reference"/>
+        <element label="Date" max_length="40" name="date" type="glide_date"/>
+        <element choice="3" default="1" label="Position" mandatory="true" max_length="40" name="position" type="integer">
+            <choice>
+                <element inactive_on_update="false" label="5" sequence="4" value="5"/>
+                <element inactive_on_update="false" label="1" sequence="0" value="1"/>
+                <element inactive_on_update="false" label="2" sequence="1" value="2"/>
+                <element inactive_on_update="false" label="3" sequence="2" value="3"/>
+                <element inactive_on_update="false" label="4" sequence="3" value="4"/>
+            </choice>
+        </element>
+        <index name="index">
+            <element name="player"/>
+        </index>
+    </element>
+</database>

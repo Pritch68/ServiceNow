@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_package_dependency_m2m">
+    <sys_package_dependency_m2m action="INSERT_OR_UPDATE">
+        <dependency display_value="System Import Sets" source="com.glide.system_import_set">47d452c3651012104f340572a94740a4</dependency>
+        <min_version>1.0.0</min_version>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-10-23 18:58:49</sys_created_on>
+        <sys_id>f4d733e7c319d2109ce61e0ed40131fd</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_package display_value="SquashTracker" source="x_snc_squashtrack">dcd7476bc315d2109ce61e0ed4013168</sys_package>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-10-23 18:58:49</sys_updated_on>
+    </sys_package_dependency_m2m>
+</record_update>

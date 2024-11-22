@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="one_api_feature">
+    <one_api_feature action="INSERT_OR_UPDATE">
+        <input_processor display_value="OneExtendGenericCapabilityRequestProcessor">a7eb538353111110c271ddeeff7b12a8</input_processor>
+        <name>0bcf07b243d4f1106ccb3fc9dbb8f26f</name>
+        <output_processor/>
+        <short_description>Auto Generated </short_description>
+        <sys_class_name>one_api_feature</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-11-20 16:47:52</sys_created_on>
+        <sys_id>af56a72cc3ca52109ce61e0ed40131dd</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>0bcf07b243d4f1106ccb3fc9dbb8f26f</sys_name>
+        <sys_package display_value="SquashTracker" source="x_snc_squashtrack">dcd7476bc315d2109ce61e0ed4013168</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="SquashTracker">dcd7476bc315d2109ce61e0ed4013168</sys_scope>
+        <sys_update_name>one_api_feature_af56a72cc3ca52109ce61e0ed40131dd</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-11-20 16:47:52</sys_updated_on>
+    </one_api_feature>
+</record_update>
